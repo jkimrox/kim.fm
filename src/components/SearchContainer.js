@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 import Search from './Search';
-import Results from './Results'
+import Results from './Results';
 
 const SearchContainer = () => {
     const[query, setQuery] = useState([])
     const[results, setResults] = useState([])
 
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
         e.preventDefault()
         // console.log(query)
         try {

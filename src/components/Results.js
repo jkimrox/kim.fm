@@ -2,9 +2,9 @@ const Results = (props) => {
     
     console.log(props)
 
-    // const showData = props.results.map((image, idx) => {
+    // const showData = props.results.map((topalbums artist, idx) => {
     //         return(
-    //         < img src={image.}
+    //         < img src={topalbums artist.}
     //         )
     //     }
     // )
