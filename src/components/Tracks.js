@@ -38,6 +38,12 @@ const Tracks = () => {
           <h2>{displayElement.toptracks.track[5].playcount}</h2>
           <h2>{displayElement.toptracks.track[6].name}</h2>
           <h2>{displayElement.toptracks.track[6].playcount}</h2>
+          <h2>{displayElement.toptracks.track[7].name}</h2>
+          <h2>{displayElement.toptracks.track[7].playcount}</h2>
+          <h2>{displayElement.toptracks.track[8].name}</h2>
+          <h2>{displayElement.toptracks.track[8].playcount}</h2>
+          <h2>{displayElement.toptracks.track[9].name}</h2>
+          <h2>{displayElement.toptracks.track[9].playcount}</h2>
           </>
         )
       };return (
