@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.kim-index {
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 50px;
+    font-family: Montserrat;
+    
+}
+
+.main-description {
+    font-size: 40px;
+    font-family: Montserrat;
+}
+
+img {
+    filter: drop-shadow(0px 10px 3px black);
+}
