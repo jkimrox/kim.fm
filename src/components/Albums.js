@@ -22,7 +22,7 @@ const Albums = () => {
           <>
           <h1>{displayElement.topalbums['@attr'].artist}</h1>
           <h2>{displayElement.topalbums.album[0].name}</h2>
-          {/* <h2>{displayElement.topalbums.album[0].image}</h2> */}
+          {/* <h2>{displayElement.topalbums.album[0].image[0]}</h2> */}
           <h2>{displayElement.topalbums.album[1].name}</h2>
           <h2>{displayElement.topalbums.album[2].name}</h2>
           <h2>{displayElement.topalbums.album[3].name}</h2>

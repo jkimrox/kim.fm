@@ -6,10 +6,13 @@ const Nav = (props) => {
         <div className = "nav">
             {/* creates an a tag, creates nav link */}
             <Link className = "nav-link" to="/">
-                <div>Steven Leftovers Albums</div>
+                <div>Home</div>
             </Link>
             <Link className = "nav-link" to = "/Albums">
                 <div>Album List</div>
+            </Link>
+            <Link className = "nav-link" to = "/Tracks">
+                <div>Top Tracks</div>
             </Link>
         </div>
     )

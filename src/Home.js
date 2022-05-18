@@ -1,10 +1,11 @@
 import Albums from './components/Albums'
+import Main from './components/Main'
 
 
 const Home = () => {
   return(
     <div>
-      <Albums />
+      <Main />
     </div>
   )
 }
