@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
-import Search from './Search';
-import Results from './Results';
 
-const StevenLeftovers = () => {
+const Albums = () => {
     const[query, setQuery] = useState([])
     const[results, setResults] = useState(null)
 
@@ -18,9 +16,6 @@ const StevenLeftovers = () => {
     
     console.log(results)
     useEffect(() => {getData()}, [])
-
-    
-    
 
     const displayData = (displayElement) =>{
         return(
@@ -41,4 +36,4 @@ const StevenLeftovers = () => {
       )
     } 
 
-export default StevenLeftovers;
+export default Albums;

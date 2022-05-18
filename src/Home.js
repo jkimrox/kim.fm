@@ -1,10 +1,10 @@
-import StevenLeftovers from './components/StevenLeftovers'
+import Albums from './components/Albums'
 
 
 const Home = () => {
   return(
     <div>
-      <StevenLeftovers />
+      <Albums />
     </div>
   )
 }
