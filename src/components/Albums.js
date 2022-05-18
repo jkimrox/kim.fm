@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
+// require('dotenv').config();
+const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY
 
 const Albums = () => {
     const[query, setQuery] = useState([])
     const[results, setResults] = useState(null)
-
+    
     const getData = async () => {
         try {
-            const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=Steven Leftovers&api_key=ee3289f986456b1b8e715ff002105cd6&format=json`)
+            const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=Steven Leftovers&api_key=${REACT_APP_API_KEY}&format=json`)
             const data = await response.json()
             setResults(data)
           } catch (err) {

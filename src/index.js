@@ -16,10 +16,9 @@ root.render(
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Home /> */}
           <Route path="/Albums" element={<Albums />} />
           <Route path="/Tracks" element={<Tracks />} />
-          </Routes>
+        </Routes>
       </Router>
   </React.StrictMode>
 );
