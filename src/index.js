@@ -4,9 +4,10 @@ import './index.css';
 import Home from './Home';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+      <Home />
   </React.StrictMode>
 );

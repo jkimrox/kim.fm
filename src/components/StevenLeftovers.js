@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Search from './Search';
 import Results from './Results';
 
-const SearchContainer = () => {
+const StevenLeftovers = () => {
     const[query, setQuery] = useState([])
     const[results, setResults] = useState(null)
 
@@ -16,25 +16,9 @@ const SearchContainer = () => {
           }
         }
     
-    // async function getData() {
-    //     // e.preventDefault()
-    //     // console.log(query)
-    //     try {
-    //         const apiKey = "ee3289f986456b1b8e715ff002105cd6"
-    //         const URL = `https://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=cher&api_key=ee3289f986456b1b8e715ff002105cd6&format=json`
-    //     console.log(URL)
-    //         const response = await fetch(URL)
-    //         const data = await response.json()
-    //         setResults(data.data)
-    //     } catch(err) {
-    //         console.log(err)
-    //     }
-    // }
     console.log(results)
     useEffect(() => {getData()}, [])
-    // function handleChange(e) {
-    //     setQuery(e.target.value)
-    // }
+
     
     
 
@@ -57,4 +41,4 @@ const SearchContainer = () => {
       )
     } 
 
-export default SearchContainer;
+export default StevenLeftovers;

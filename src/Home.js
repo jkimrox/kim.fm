@@ -1,10 +1,10 @@
-import SearchContainer from './components/SearchContainer'
+import StevenLeftovers from './components/StevenLeftovers'
 
 
 const Home = () => {
   return(
     <div>
-      <SearchContainer />
+      <StevenLeftovers />
     </div>
   )
 }
