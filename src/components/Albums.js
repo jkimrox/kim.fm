@@ -33,10 +33,6 @@ const Albums = () => {
           <img src={displayElement.topalbums.album[2].image[2]['#text']} alt="cover art"/>
           <h2>{displayElement.topalbums.album[3].name}</h2>
           <img src={displayElement.topalbums.album[3].image[2]['#text']} alt="cover art"/>
-          {/* <h2>{displayElement.topalbums.album[4].name}</h2>
-          <img src={displayElement.topalbums.album[4].image[2]['#text']} alt="cover art"/>
-          <h2>{displayElement.topalbums.album[5].name}</h2>
-          <img src={displayElement.topalbums.album[5].image[2]['#text']} alt="cover art"/> */}
           <h2>{displayElement.topalbums.album[6].name}</h2>
           <img src={displayElement.topalbums.album[6].image[2]['#text']} alt="cover art"/>
           </div>
