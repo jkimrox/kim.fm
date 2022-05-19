@@ -9,7 +9,7 @@ const Tracks = () => {
 
     const getData = async () => {
         try {
-            const response = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Steven Leftovers&api_key=${REACT_APP_API_KEY}&format=json`)
+            const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Steven Leftovers&api_key=${REACT_APP_API_KEY}&format=json`)
             const data = await response.json()
             setResults(data)
           } catch (err) {
