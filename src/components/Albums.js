@@ -25,7 +25,6 @@ const Albums = () => {
           <h1>{displayElement.topalbums['@attr'].artist}</h1>
           <h2>{displayElement.topalbums.album[0].name}</h2>
           <img src={displayElement.topalbums.album[0].image[2]['#text']} alt="cover art"/>
-          {/* {console.log(displayElement.topalbums.album[0].image[2]['#text'])} */}
           <h2>{displayElement.topalbums.album[1].name}</h2>
           <img src={displayElement.topalbums.album[1].image[2]['#text']} alt="cover art"/>
           <h2>{displayElement.topalbums.album[2].name}</h2>
