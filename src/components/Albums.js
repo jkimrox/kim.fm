@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import '../albums.css'
-// require('dotenv').config();
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY
 
 const Albums = () => {

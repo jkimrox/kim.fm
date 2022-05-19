@@ -1,4 +1,3 @@
-// import Albums from './components/Albums'
 import Main from './components/Main'
 
 
