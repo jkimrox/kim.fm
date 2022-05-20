@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Kim.fm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Link
 
-## Available Scripts
+https://kimfm.herokuapp.com/
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+An application that displays a musical artist and their top albums and tracks that have been streamed through the use of the Last.fm api.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Link to the APIs used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://www.last.fm/api
 
-### `npm test`
+GET https://www.last.fm/api/show/artist.getTopAlbums
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+GET https://www.last.fm/api/show/artist.getTopTracks
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Wireframes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Home Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screen Shot 2022-05-20 at 7 17 31 AM](https://user-images.githubusercontent.com/102046331/169527177-02cb8696-deed-4c8a-8d8b-dd954d86b883.png)
 
-### `npm run eject`
+### Top Albums
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screen Shot 2022-05-20 at 7 18 19 AM](https://user-images.githubusercontent.com/102046331/169527195-a2e4bb0d-fe46-408e-9ba6-c49696b78371.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Top Tracks
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screen Shot 2022-05-20 at 7 18 34 AM](https://user-images.githubusercontent.com/102046331/169527222-b84b780d-260a-4f08-b8be-d39722b9126d.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## User Stories
 
-## Learn More
+- As a user, I want to see the top albums displayed for the artist.
+- As a user, I want to see the top tracks displayed for the artist.
+- As a user, I want to be able to navigate back to the home page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## MVP Goals
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- As a user, I want to see the top albums displayed fro the artist.
+- As a user, I want to see the top tracks displayed for an artist.
+- As a user, I want to be able to navigate back to the home page.
 
-### Code Splitting
+## Stretch Goals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- As a user, I want to be able to search for different artists' discographies.
+- As a user, I want to be able to create, edit, and delete artists.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
