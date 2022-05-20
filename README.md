@@ -39,7 +39,7 @@ GET https://www.last.fm/api/show/artist.getTopTracks
 
 ## MVP Goals
 
-- As a user, I want to see the top albums displayed fro the artist.
+- As a user, I want to see the top albums displayed for the artist.
 - As a user, I want to see the top tracks displayed for an artist.
 - As a user, I want to be able to navigate back to the home page.
 
